@@ -1,6 +1,7 @@
 //
 // http://www.devfuria.com.br/node.js/learnyounode-04-my-first-async-io/
 //
+// o mesmo que o anterior, só que assíncrono.
 
 var fs   = require('fs')
 var file = process.argv[2]
