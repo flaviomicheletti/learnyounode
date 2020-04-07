@@ -1,0 +1,57 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "01",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "program": "${workspaceFolder}\\01-hello-world.js"
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "02",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "args": ["1", "2", "3"],
+            "program": "${workspaceFolder}\\02-baby-steps.js"
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "03",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "args": ["03-mock.md"],
+            "program": "${workspaceFolder}\\03-my-first-io.js"
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "04",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "args": ["03-mock.md"],
+            "program": "${workspaceFolder}\\04-my-first-async-io.js"
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "05",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "args": ["./", "js"],
+            "program": "${workspaceFolder}\\05-filtered-ls.js"
+        }
+    ]
+}
